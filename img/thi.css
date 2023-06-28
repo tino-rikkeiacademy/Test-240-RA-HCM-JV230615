@@ -1,0 +1,128 @@
+.div__header {
+    background-color: black;
+    height: 50px;
+}
+
+.header__img {
+    height: 50px;
+}
+
+.div__title {
+    text-align: center;
+}
+
+.font,
+.div__button1 {
+    background-color: gray;
+}
+
+.main__img1 {
+    background-size: 100%;
+    background-image: url(./jane.jpg);
+    height: 700px;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+
+
+.div__title2 {
+    position: relative;
+    top: 50%;
+    left: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    padding: 10px;
+    gap: 30px;
+
+}
+
+.font1 {
+    color: gray;
+}
+
+.main__img2,
+.main__img3,
+.main__img4 {
+    text-align: center;
+}
+
+.container__child1 {
+
+    border-width: 200px;
+}
+
+.paragraph3 {
+    background-color: black;
+    color: white;
+    width: 600px;
+    height: 90px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+
+}
+
+.img3 {
+    width: 600px;
+    height: 300px;
+}
+
+.button2 {
+    background-color: black;
+    color: white;
+    margin-left: 500px;
+}
+
+.child1-img {
+    display: flex;
+}
+
+.child1-paragraph {
+    margin-left: 100px;
+}
+
+.font2 {
+    background-color: white;
+    color: black;
+}
+
+.popular {
+    display: flex;
+}
+
+.youradhere {
+    background-color: gray;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+
+}
+
+.buttonend {
+    background-color: rgb(244, 67, 54);
+    width: 100%;
+}
+
+.footer_button {
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+
+
+
+}
+
+footer {
+    background-color: gray;
+    height: 100px;
+}
