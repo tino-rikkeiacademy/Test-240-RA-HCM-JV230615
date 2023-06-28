@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #c8c8c8;
+    font-family: Arial;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto; 
+}
+
+/* Header Area */
+.header__nav{
+    background-color: #000;
+    width: 100%;
+    height: 30px;
+}
+
+.header__banner-top{
+    background-color: #fff;
+    height: 150px;
+    text-align: center;
+    font-family: Arial;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header__banner-top p{
+    font-size: 13px;
+}
+
+.header__banner__text-decor{
+    background-color: #626262;
+    border-left: 10px solid #000;
+    border-right: 10px solid #000;
+}
+
+.header__banner-bottom{
+    position: relative;
+}
+
+.header__banner__image{
+    width: 100%;
+    object-fit: cover;  
+}
+
+.header__banner__text-image{
+    font-family: Arial;
+    color: #fff;
+    font-size: 32px;
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+
+.header__banner__text-image h3{
+    margin-bottom: 20px;
+}
+
+.header__button{
+    background-color: rgb(159, 159, 159, 0.6);
+    border: none;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.header__button a {
+    color: #000;
+    font-family: Arial;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* End Header Area */
+
+/* Body Area */
+.container-section{
+    width: 65%;
+    background-color: #fff;
+}
+
+.section__title{
+    text-align: center;
+    padding: 20px;
+}
+
+.section__title h3{
+    margin-bottom: 13px;
+}
+
+.section__text-decor {
+    color: #626262;
+}
+
+.container-section-content{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.section__image{
+    width: 100%;
+}
+
+.section__paragraph{
+    text-align: justify;
+}
+
+.section__btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__btn-like{
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 10%;
+
+}
+
+.section__btn-replies{
+    background-color: #000;
+    border: none;
+    color: white;
+    
+    width: 15%;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 10px;
+}
+
+.section__btn-replies span{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    display: block;
+    width: 20px;
+    height: 16px
+}
+
+.section__author{
+    display: flex;
+    gap: 10%;
+    padding-bottom: 20px;
+}
+
+.section__author__image{
+    width: 12%;
+}
+
+.section__author__desc{
+    margin-top: 20px
+}
+/* End Body Area */
+
+/* Footer Area */
+footer{
+    background-color: #616161;
+    height: 100px;
+}
+/* End Footer Area */
