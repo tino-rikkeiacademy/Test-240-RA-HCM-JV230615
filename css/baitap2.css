@@ -1,0 +1,85 @@
+.a{
+    text-align: center;
+}
+.b{ background-size: cover;
+    background-image: url(../image/jane.jpg);
+    background-repeat: no-repeat;
+    color: aliceblue;
+    height: 1000px
+
+}
+.s{ position: relative;
+    top:200px;
+   
+}
+.tong{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    padding: 10px;
+    gap: 30px;
+}
+.hinh{
+    display: flex;
+    
+   
+}
+.chu{
+    display: flex;justify-content: space-between;
+}
+.f{
+    background-image: url(../image/avatar_girl2.jpg);
+    background-repeat: no-repeat;
+   background-size: cover; 
+   height:300px
+
+}  
+.ten{
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    top: 170px;
+}
+.text{ height: 50px;
+background-color: black;
+color: aliceblue;
+}
+.hinh1con{
+display: flex;
+
+
+}
+.div{
+width: 10px;
+
+height: 10px;
+background-size: cover;
+}
+.G{
+box-sizing: border-box  ;
+}
+.hinh3con{
+display: flex;
+}
+.hinh2con{
+display: flex;
+}
+.hhhh{
+background-color: black;
+color: aliceblue;
+}
+.tong1221{ 
+background-color: gray;
+width: 500px;height: 400px;
+
+
+}
+.dog{
+align-items: center;
+display: flex;
+justify-content: center;
+margin-top: 150px;
+}
+.dooo1{
+display: flex;
+}
