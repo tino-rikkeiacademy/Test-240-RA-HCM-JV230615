@@ -1,0 +1,30 @@
+.nav__img{
+    width: 20px;
+}
+.body__first-background{
+    background-image: url(../image/jane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 1000px
+    
+}
+span{
+    color: grey;
+}
+.paragaph__content-imgeye{
+    color: white;
+    width: auto;
+    background-image: url(../image/avatar_girl2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.margin{
+    display: flex;
+    
+}
+span{
+    background-color: rgb(200, 184, 184);
+}
